@@ -20,7 +20,7 @@ Traditional feature-based AMC methods rely on handcrafted signal properties and 
 
 ## Dataset
 
-This project supports three **RadioML benchmark datasets**.
+This project supports **RadioML benchmark datasets**.
 
 | Dataset | Classes | Samples per Pair | Total Samples | SNR Range |
 |-------|---------|------------------|---------------|-----------|
@@ -49,4 +49,5 @@ This project supports three **RadioML benchmark datasets**.
 - The model is designed to handle **raw IQ signal data**
 - Performance is evaluated across **multiple SNR levels**
 - The architecture combines **spatial feature extraction** and **temporal sequence modeling**
+
 
