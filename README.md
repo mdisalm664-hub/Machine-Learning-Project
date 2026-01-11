@@ -20,7 +20,8 @@ Traditional feature-based AMC methods rely on handcrafted signal properties and 
 
 ## Dataset
 
-This project supports **RadioML benchmark datasets**.
+This project supports **RadioML benchmark datasets**.Dataset and SNR Regimes: The model was trained and evaluated on the RML2022.01A dataset across multiple Signal-to-Noise Ratio (SNR) conditions, ranging from -20 dB to +20 dB. Overall Accuracy: It achieved an overall accuracy of 89.59% for high SNR (≥10 dB), 88.35% for medium SNR (≥0 dB), 79.05% for low SNR (≥-10 dB), and 65.39% for very low SNR (≥-20 dB) 
+Robustness: The model demonstrated robust performance on linear modulations (BPSK, QPSK, QAM) and frequency modulations (CPFSK, GFSK). Near-perfect classification was achieved for BPSK, CPFSK, GFSK, and PAM4 
 
 | Dataset | Classes | Samples per Pair | Total Samples | SNR Range |
 |-------|---------|------------------|---------------|-----------|
@@ -49,5 +50,6 @@ This project supports **RadioML benchmark datasets**.
 - The model is designed to handle **raw IQ signal data**
 - Performance is evaluated across **multiple SNR levels**
 - The architecture combines **spatial feature extraction** and **temporal sequence modeling**
+
 
 
