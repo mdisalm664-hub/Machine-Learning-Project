@@ -45,17 +45,21 @@ Robustness: The model demonstrated robust performance on linear modulations (BPS
 - `seaborn` (for visualization)
 
 ---
-### Environment Setup
-1. Clone the Repository
+## Environment Setup
+
+### 1. Clone the Repository
+```bash
 git clone https://github.com/mdisalm664-hub/Machine-Learning-Project.git
 cd Machine-Learning-Project
 
 2. Create and Activate a Virtual Environment
+```bash
 python -m venv venv
 source venv/bin/activate        # Linux / macOS
 venv\Scripts\activate           # Windows
 
 3. Install Dependencies
+```bash
 pip install --upgrade pip
 pip install -r requirements.txt
 
@@ -81,18 +85,19 @@ All outputs are saved in the results/ directory.
 ### Directory Structure
 Machine-Learning-Project/
 │
-├── data- RML22.01A.pkl             # RadioML dataset
+├── ```data- RML22.01A.pkl             # RadioML dataset
 
-│   ├── figures/                    # Accuracy, loss plots
-│   ├── confusion_matrices/         # CM plots (per SNR)
-│   └── logs/                       # Training logs
+│   ├── ```figures/                    # Accuracy, loss plots
+│   ├── ```confusion_matrices/         # CM plots (per SNR)
+│   └── ```logs/                       # Training logs
 │
-│   ├── data_loader.py              # Dataset loading & SNR filtering
-│   ├── model.py                    # CNN + TCN + GRU architecture
-│   ├── train.py                    # Training loop & callbacks
-│   ├── evaluation.py               # Metrics & confusion matrices
-│   └── utils.py                    # Helper functions
+│   ├── ```data_loader.py              # Dataset loading & SNR filtering
+│   ├──``` model.py                    # CNN + TCN + GRU architecture
+│   ├── ```train.py                    # Training loop & callbacks
+│   ├──``` evaluation.py               # Metrics & confusion matrices
+│   └──``` utils.py                    # Helper functions
 │
-├── image_1.png                     # Architecture diagram         
-├── README.md                       # Project documentation
+├── ```image_1.png                     # Architecture diagram         
+├──``` README.md                       # Project documentation
+
 
