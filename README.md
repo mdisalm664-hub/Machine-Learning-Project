@@ -47,7 +47,7 @@ Robustness: The model demonstrated robust performance on linear modulations (BPS
 ---
 ## Environment Setup
 
-### 1. Clone the Repository
+### Clone the Repository
 ```bash
 git clone https://github.com/mdisalm664-hub/Machine-Learning-Project.git
 cd Machine-Learning-Project
@@ -58,48 +58,34 @@ cd Machine-Learning-Project
 python -m venv venv
 source venv/bin/activate        # Linux / macOS
 venv\Scripts\activate           # Windows
+```
 
-3. Install Dependencies
+### Install Dependencies
 ```bash
 pip install --upgrade pip
 pip install -r requirements.txt
+```
 
 ### Quick Start
-1. Prepare the Dataset
-Download the RadioML 2022.01A dataset and place it in the data/ directory
-
+1. Download the RadioML 2022.01A dataset and place it in the data/ directory
 2. Run an Experiment
 3. Results
 
-After completion, the following outputs will be generated:
-
-Trained model checkpoints
-
-Training and validation accuracy/loss plots
-
-Confusion matrices for modulation classes
-
-Performance metrics across multiple SNR levels
-
-All outputs are saved in the results/ directory.
 
 ### Directory Structure
+```bash
 Machine-Learning-Project/
-│
-├── ```data- RML22.01A.pkl             # RadioML dataset
 
-│   ├── ```figures/                    # Accuracy, loss plots
-│   ├── ```confusion_matrices/         # CM plots (per SNR)
-│   └── ```logs/                       # Training logs
-│
-│   ├── ```data_loader.py              # Dataset loading & SNR filtering
-│   ├──``` model.py                    # CNN + TCN + GRU architecture
-│   ├── ```train.py                    # Training loop & callbacks
-│   ├──``` evaluation.py               # Metrics & confusion matrices
-│   └──``` utils.py                    # Helper functions
-│
-├── ```image_1.png                     # Architecture diagram         
-├──``` README.md                       # Project documentation
+├── RML22.01A.pkl                   # RadioML dataset
 
-
+│   ├── figures/                    # Accuracy, loss plots
+│   ├── confusion_matrices/         # CM plots (per SNR)
+│   └── logs/                       # Training logs
+│
+│   ├── data_loader.py              # Dataset loading & SNR filtering
+│   ├── model.py                    # CNN + TCN + GRU architecture
+│   ├── train.py                    # Training loop & callbacks
+│       
+├── README.md                       # Project documentation
+```
 
