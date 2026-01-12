@@ -51,8 +51,9 @@ Robustness: The model demonstrated robust performance on linear modulations (BPS
 ```bash
 git clone https://github.com/mdisalm664-hub/Machine-Learning-Project.git
 cd Machine-Learning-Project
+```
 
-2. Create and Activate a Virtual Environment
+###  Create and Activate a Virtual Environment
 ```bash
 python -m venv venv
 source venv/bin/activate        # Linux / macOS
@@ -99,5 +100,6 @@ Machine-Learning-Project/
 │
 ├── ```image_1.png                     # Architecture diagram         
 ├──``` README.md                       # Project documentation
+
 
 
